@@ -9,10 +9,9 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Potato Leaking on Bacon', 'A thoroughly gross concoction',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2nJw9Bp8CeukwrnplKwtPEmg8G9xcIKfLc_YZSyf9XDO1Kp4M2A'),
-    new Recipe('Recipe Name 2', 'Another example description',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2nJw9Bp8CeukwrnplKwtPEmg8G9xcIKfLc_YZSyf9XDO1Kp4M2A')
+    new Recipe('Potato Leaking on Bacon', 'A thoroughly gross concoction', 
+    'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
+    new Recipe('Recipe Name 2', 'Another example description', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
   ];
 
   constructor() { }

@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Ingredient } from '../shared/ingredient.model';
-import { setRootDomAdapter } from '@angular/platform-browser/src/dom/dom_adapter';
-
 
 @Component({
   selector: 'app-shopping-list',
